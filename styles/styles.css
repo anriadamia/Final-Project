@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style-type:none;
+}
+
+header{
+    height:150px;
+    
+}
+
+header .freeshiping{
+    height:40px;
+    background-color:#50C878;
+    padding:10px;
+}
+
+header .freeshiping p{
+    width:100%;
+    text-align:center;
+    font-size:18px;
+}
+
+.flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+
+header .container{
+    padding:30px;
+}
+
+.shopnow{
+    width:120px;
+    height:40px;
+    padding:10px;
+    background-color: #ffffff;
+    border-radius:20px;
+    border:2px solid #000000;
+}
+.shopnow p{
+    text-align:center;
+}
+.shopnow:hover{
+    background-color:#50C878;
+}
+
+header h1{
+    width:300px;
+    height:50px;
+    background-image:url(/img/Logo.PNG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-indent:-99999px;
+
+}
+header h1 a{
+    width:300px;
+    height:50px;
+    display:block;
+}
+
+.navcontainer{
+    width:400px;
+}
+
+header ul{
+    width:300px;
+    
+}
+
+header ul a{
+    padding:5px 10px;
+    color:#000000;
+}
+
+
+
+.user-icon,.cart-icon{
+    font-size:20px;
+}
+
+.user-icon a:visited{
+    color:#000000;
+}
+
+.user-icon,.cart-icon:hover, .shopnow:hover,.item:hover{
+    cursor:pointer;
+   
+}
+
+.item{
+    width:220px;
+    overflow:hidden;
+}
+.owl-theme .owl-nav{
+    position:absolute;
+    top:30px;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.owl-theme .owl-nav[class*=owl-]{
+    font-size:50px;
+    color:#50C878;
+    /* საბოლოოდ რა ფერსაც აარჩევ ის ჩასვი */
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background:rgb(0, 0, 0,0);
+    color:#50C878;
+    /* აქაც რა ფერსაც აარჩევ ის ჩასვი */
+}
+
+.social{
+    width:50px;
+    height:100px;
+    top: 300px;
+    right:0px;
+    position: fixed;
+    z-index: 1;
+    
+}
+.social .facebook, .social .instagram{
+    width: 100%;
+    height:50%;
+   
+}
+
+.social .facebook a, .social .instagram a{
+    display:block;
+    width:50px;
+    height:50px;
+}
+
+.facebook{
+    background-image:url(/img/facebook.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+.instagram{
+    background-image:url(/img/instagram.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
