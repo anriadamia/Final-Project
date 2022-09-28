@@ -151,3 +151,83 @@ header ul a{
     background-repeat:no-repeat;
     background-size:100%;
 }
+
+.chatbox{
+    width:120px;
+    height:60px;
+    border-radius:10px;
+    background-color:#50C878;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    padding:20px;
+    
+}
+
+.question-icon,.chatbox p{
+    width:100%;
+    text-align:center;
+    font-size:18px;
+    color: #ffffff;
+}
+
+.chatboxform{
+    width:350px;
+    height:550px;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:10px;
+    background-color:#cac3c3;
+    z-index:1;
+    display:none;
+                                   
+}      
+
+.chatboxheader{
+    width:100%;
+   height:50px;
+    background-color:#50C878;
+    border-radius:5px;
+}
+.chatboxheader p, .circle-icon{
+    font-size:20px;
+    color: #ffffff;
+    margin:10px;
+}
+
+.chatboxmain{
+    padding:10px;
+}
+.chatboxmain p{
+    margin-bottom:10px;
+    font-size:18px;
+   
+}
+
+
+.chatboxmain input, .chatboxmain textarea{
+    padding:15px;
+    margin-bottom:10px;
+    width:100%;
+    border-radius:5px;
+    outline:none;
+    resize:none;
+   
+}
+
+
+
+.sendbutton{
+    width:70px;
+    height:40px;
+    background-color: #50C878;
+    border-radius:10px;
+    margin:10px;
+    padding:10px;
+}
+
+.sendbutton p{
+    width:100%;
+    text-align:center;
+}

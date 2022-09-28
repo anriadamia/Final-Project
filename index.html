@@ -84,6 +84,40 @@
                 <a href="https://www.google.com/search?q=instagram&tbm=isch&ved=2ahUKEwjw3b_1hf75AhUP6aQKHQDYC4cQ2-cCegQIABAA&oq=ins&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgQIABBDMgQIABBDOgUIABCABDoICAAQsQMQgwE6CAgAEIAEELEDUJEFWNoHYLESaABwAHgAgAGFAYgB7AOSAQMwLjSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=UiAWY_DsEo_SkwWAsK-4CA&bih=609&biw=1280" target="_blank" rel="nofollow"></a>
             </div>
         </div>
+        <div class="chatbox flex" onclick="showchatbox()">
+            <p class="question-icon">
+                <i class="fa-solid fa-circle-question"></i>
+            </p>
+            <p>
+                Support
+            </p>
+        </div>
+        <div class="chatboxform" id="chatboxform">
+            <div class="chatboxheader flex">
+                <p>
+                    Leave us a message
+                </p>
+                <p class="circle-icon" onclick="hidechatbox()"><i class="fa-sharp fa-solid fa-circle-xmark"></i></p>
+            </div>
+            <div class="chatboxmain">
+                <p>
+                    How can we help you&#63;
+                </p>
+              
+                <input type="text" name="firstname" id="firstname" required placeholder="Your Name">
+                <input type="email" name="email" id="email" required placeholder=" Email Address">
+                <input type="text" name="subjet" id="subjetc" placeholder="Subject(optional)">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Please enter the details of your request"></textarea>
+                
+            </div>
+            <div class="chatboxfooter">
+                <div class="sendbutton">
+                    <p onclick="hidechatbox()">
+                        Send
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
@@ -93,5 +127,6 @@
     <script src="https://kit.fontawesome.com/8dea7411bd.js" crossorigin="anonymous"></script>
     <script src="/js/nav.js"></script>
     <script src="/js/slider.js"></script>
+    <script src="/js/chatbox.js"></script>
 </body>
 </html>
