@@ -89,7 +89,7 @@ header ul a{
     color:#000000;
 }
 
-.user-icon,.cart-icon:hover, .shopnow:hover,.item:hover{
+.user-icon,.cart-icon:hover, .shopnow:hover,.item:hover, .chatbox:hover,.circle-icon:hover, .sendbutton:hover{
     cursor:pointer;
    
 }
