@@ -93,7 +93,7 @@ header ul a{
 
 
 
-.user-icon,.cart-icon{
+.user-icon,.cart-icon, .bag-icon{
     font-size:20px;
 }
 
@@ -102,24 +102,27 @@ header ul a{
     color:#000000;
 }
 
-.user-icon,.cart-icon:hover, .shopnow:hover,.item:hover, .chatbox:hover,.circle-icon:hover, .sendbutton:hover,.signin:hover, .createaccount:hover,.resetpassword:hover, .resetpasswordsubmit:hover,.closeresetpassword:hover{
+.user-icon,.cart-icon:hover, .bag-icon:hover, .shopnow:hover,.item:hover, .chatbox:hover,.circle-icon:hover, .sendbutton:hover,.signin:hover, .createaccount:hover,.resetpassword:hover, .resetpasswordsubmit:hover,.closeresetpassword:hover, article:hover{
     cursor:pointer;
    
 }
+
 
 .item{
     width:220px;
     overflow:hidden;
     border-radius:20px;
+   
 }
 .owl-theme .owl-nav{
     position:absolute;
-    top:30px;
+    top:120px;
     left:0;
     width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
+    
 }
 .owl-theme .owl-nav[class*=owl-]{
     font-size:50px;
@@ -131,6 +134,85 @@ header ul a{
     background:rgb(0, 0, 0,0);
     color:#50C878;
     /* აქაც რა ფერსაც აარჩევ ის ჩასვი */
+}
+
+.articlecontainer{
+    width:100%;
+    flex-wrap:wrap;
+}
+
+article{
+    margin:10px;
+ 
+}
+section{
+    overflow:hidden;
+    position:relative;
+    width:350px;
+    height:450px;
+}
+
+section img{
+   width:100%;
+   
+
+}
+article p{
+    width:100%;
+    margin-top:10px;
+    text-align:left;
+    
+    
+}
+article :nth-child(3){
+    font-weight:bold;
+}
+.hearticoncontainer{
+    width:30px;
+    height:30px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    background-image:url(../img/heart.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.bagiconcontainer{
+    width:30px;
+    height:30px;
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    background-image:url(../img/bag.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+   
+}
+
+.sizecontainer{
+    background-color: #abedbc;
+    border-radius:20px;
+    padding:10px;
+    width:150px;
+    height:40px;
+    position:absolute;
+    bottom:10px;
+    left:100px;
+    text-align:center;
+    display:none;
+}
+
+ section:hover .sizecontainer {
+    display:block;
+ }
+
+.hearticoncontainer:hover{
+    background-image:url(../img/heartonhover.png);
+    
+}
+
+.bagiconcontainer:hover{
+    background-image:url(../img/bagonhover.png);
 }
 
 .social{
@@ -176,6 +258,11 @@ header ul a{
     bottom:20px;
     padding:20px;
     
+}
+.chatbox:hover{
+    width:122px;
+    height:62px;
+    box-shadow:0 0 10px;
 }
 
 .question-icon,.chatbox p{
@@ -307,6 +394,9 @@ header ul a{
     padding:20px;
     background-color:#FFFDFA;
 }
+.footercontainer p a{
+    color:#000000;
+}
 
 .AwesomeT-Shirts{
     width:300px;
@@ -341,10 +431,7 @@ header ul a{
     margin-top:10px;
 }
 
-.connectcontainer a{
-    padding:5px 10px;
-    color:#000000;
-}
+
 
 /* აქ იწყება signin.html კოდები */
 .login{
