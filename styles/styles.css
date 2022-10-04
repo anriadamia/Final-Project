@@ -558,3 +558,111 @@ article :nth-child(3){
     text-decoration:underline;
 }
 
+/* აქ იწყება vieewproduct.html კოდები */
+
+.firsttshirtcontainer{
+    width:60%;
+    align-content:flex-start;
+    margin:20px;
+    
+}
+.firsttshirtphotocontainer{
+    width:400px;
+    height:600px;
+    overflow:hidden;
+    
+    
+}
+
+.firsttshirtphotocontainer img{
+    width:100%;
+}
+
+.firsttshirttextcontainer{
+    width:400px;
+    height:600px;
+    margin:20px;
+    
+   
+}
+
+.brokenheart{
+    font-size:30px;
+    font-weight:bold;
+}
+.price{
+    font-size:24px;
+    font-weight:bold;
+    color:#1c8640;
+}
+
+.firsttshirttextcontainer p{
+    margin-top:10px;
+    
+}
+.sizes, .quantity{
+    display:block;
+    font-weight:bold;
+    font-size:18px;
+    margin:8px 0 8px 0;
+    
+}
+
+select,.quantityform input{
+    border-radius:10px;
+    width:80px;
+    height:40px;
+    border:1px solid #000000;
+}
+
+.addcontainer{
+    width:300px;
+    height:100px;
+    align-content:flex-start;
+}
+
+.addtocart, .addtowishlist{
+    width:50%;
+    height:50%;
+    border-radius:10px;
+    background-color: #6de193;
+    margin-right:10px;
+    padding:10px;
+    
+}
+.addtocart p, .addtowishlist p{
+    width:100%;
+    text-align:justify;
+    font-size:16px;
+    color:#FFFDFA;
+    }
+
+    .weoffer{
+        font-size:20px;
+        font-weight:bold;
+    }
+
+    .productdetails{
+        width:100%;
+        text-align:center;
+        font-size:20px;
+        font-weight:bold;
+        text-decoration:underline;
+        text-decoration-color:#6de193;
+        margin-bottom:10px;
+    }
+.productdetailscontainer{
+    margin:20px auto;
+    width:30%;
+    align-content:flex-start;
+  
+}
+
+    .productdetailsname p, .productdetailsanswer p{
+        margin-top:10px;
+        
+    }
+    .productdetailsname p{
+        font-weight:bold;
+        
+    }
