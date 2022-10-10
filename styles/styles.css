@@ -74,7 +74,10 @@ header h1 a{
 header ul{
     width:300px;
     text-transform:capitalize;
-    
+}
+
+.headericoncontainer{
+    width:100px;
 }
 
 header ul a:hover{
@@ -104,7 +107,7 @@ header ul a,.shopnow p a{
 
 
 .item{
-    width:220px;
+    width:240px;
     overflow:hidden;
     border-radius:20px;
    
@@ -192,7 +195,7 @@ article :nth-child(3){
     height:40px;
     position:absolute;
     bottom:10px;
-    left:100px;
+    left:30%;
     text-align:center;
     display:none;
 }
@@ -408,9 +411,7 @@ article :nth-child(3){
     padding:20px;
     background-color:#FFFDFA;
 }
-.footercontainer p a{
-    color:#000000;
-}
+
 
 .AwesomeT-Shirts{
     width:300px;
@@ -428,11 +429,11 @@ article :nth-child(3){
 .shopcontainer, .learncontainer, .connectcontainer, .legalcontainer{
     width:150px;
     height:150px;
+   
 
 }
 .shopcontainer h4, .learncontainer h4, .connectcontainer h4, .legalcontainer h4{
     width:100%;
-    text-align:justify;
     font-size:28px;
     font-family:bold;
     margin-bottom:10px;
@@ -440,12 +441,13 @@ article :nth-child(3){
 
 .shopcontainer p, .learncontainer p, .connectcontainer p, .legalcontainer p{
     width:100%;
-    text-align:justify;
     font-size:18px;
     margin-top:10px;
 }
 
-
+.footercontainer p a{
+    color:#000000;
+}
 
 /* აქ იწყება signin.html კოდები */
 .login{
@@ -683,5 +685,39 @@ select,.quantityform input{
     }
 
    
-
+    @media only screen and (max-width:768px) {
+        header .container{
+            padding:10px;
+        }
+    .shopnow {
+height:30px;
+padding:4px;
+    }
+ header ul{
+    width:100%;
+ }
+ header ul a{
+    padding:8px;
+ }
+ .articlecontainer{
+    flex-direction:column;
+ }
+ section{
+    width:700px;
+    height:800px;
+ }
+ .sizecontainer{
+    left:40%;
+ }
+.signuptoournewslettemailinput{
+    width:50%;
+    height:50%;
+}
+ .AwesomeT-Shirts{
+    display:none;
+ }
+ .firsttshirtcontainer{
+    width:100%;
+ }
+    }
  
