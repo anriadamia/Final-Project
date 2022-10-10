@@ -538,13 +538,13 @@ article :nth-child(3){
     background-color: #FFFDFA;
     border:2px solid #000000;
     position:fixed;
-    top:150px;
-    left:400px;
+    top:30%;
+    left:30%;
     padding:10px;
     display:none;
     
 }
-.resetoasswordtext{
+.resetpasswordtext{
     height:30%;
     border-bottom:1px solid #ddd8d8;
     margin-bottom:20px;
