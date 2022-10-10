@@ -24,6 +24,39 @@ header .freeshiping{
     text-transform:capitalize;
 }
 
+.burger-icon{
+    position:relative;
+    top:20px;
+    left:30px;
+    font-size:28px;
+    display:none;
+}
+.close-icon{
+    position:relative;
+    top:20px;
+    left:30px;
+    font-size:28px;
+    display:none;
+}
+.burgermenu{
+    width:120px;
+    height:220px;
+    padding:10px;
+    position:relative;
+    top:30px;
+    left:20px;
+    display:flex;
+    flex-direction:column;  
+    display:none;  
+}
+.burgermenu p{
+    width:100%;
+    text-transform:capitalize;
+    margin-top:10px;
+   border-bottom:2px solid #50C878;
+
+}
+
 .flex{
     display:flex;
     justify-content:space-between;
@@ -110,7 +143,6 @@ header ul a,.shopnow p a{
     width:240px;
     overflow:hidden;
     border-radius:20px;
-   
 }
 
 .owl-theme .owl-nav{
@@ -305,6 +337,7 @@ article :nth-child(3){
     border-radius:10px;
     background-color:#50C878;
     position:fixed;
+    z-index:2;
     right:20px;
     bottom:20px;
     padding:20px;
@@ -391,9 +424,15 @@ article :nth-child(3){
     border-radius:50%;
     background-color:#50C878;
     position:fixed;
+    z-index:2;
     bottom:20px;
     left:20px;
 
+ }
+ .backtotop:hover{
+    width:52px;
+    height:52px;
+    box-shadow:0 0 10px;
  }
 
  .upicon{
@@ -402,7 +441,7 @@ article :nth-child(3){
     font-size:20px;
  }
 
- .backtotop p a{
+ .backtotop p a, .burgermenu p a{
     color:#000000;
  }
 .footercontainer{
@@ -587,12 +626,11 @@ article :nth-child(3){
     width:400px;
     height:600px;
     overflow:hidden;
-    
-    
 }
 
 .firsttshirtphotocontainer img{
     width:100%;
+    border-radius:10px;
 }
 
 .firsttshirttextcontainer{
@@ -649,7 +687,7 @@ select,.quantityform input{
 }
 .addtocart p, .addtowishlist p{
     width:100%;
-    text-align:justify;
+    text-align:center;
     font-size:16px;
     color:#FFFDFA;
     }
@@ -721,3 +759,58 @@ padding:4px;
  }
     }
  
+   
+   
+    @media only screen and (max-width:412px) {
+        .shopnow,.navcontainer
+        {
+            display:none;
+        }
+        .logocontainer{
+           
+    margin:30px auto;
+        }
+.burger-icon{
+    display:block;
+}
+.item{
+    width:100%;
+}
+.owl-theme .owl-nav{
+    top:300px;
+}
+.articlecontainer{
+    flex-direction:column;
+ }
+article{
+    padding:30px;
+}
+ section{
+    width:350px;
+    height:400px;
+ }
+ .sizecontainer{
+    left:30%;
+ }
+ .signuptoournewslettercontainer{
+    padding:10px;
+ }
+ .signuptoournewslettemailinput{
+    width:70%;
+    height:70%;
+}
+.footercontainer{
+    flex-direction:column;
+}
+.footercontainer div{
+    margin-bottom:20px;
+}
+.firsttshirtcontainer{
+    flex-direction:column;
+    margin:0px auto;
+}
+.productdetailscontainer{
+    width:50%;
+}
+
+    }
