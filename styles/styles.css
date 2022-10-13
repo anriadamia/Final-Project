@@ -11,6 +11,11 @@ header .freeshipingcontainer{
     background-color:#50C878;
     padding:10px;
 }
+header .freeshiping{
+    color:#FFFDFA;
+    font-weight:bold;
+    text-transform:capitalize;
+}
 
 header .freeshipingcontainer p{
     width:100%;
@@ -18,26 +23,15 @@ header .freeshipingcontainer p{
     font-size:18px;
 }
 
-header .freeshiping{
-    color:#FFFDFA;
-    font-weight:bold;
-    text-transform:capitalize;
+
+.burger-icon, .close-icon{
+    position:relative;
+    top:20px;
+    left:30px;
+    font-size:28px;
+    display:none;
 }
 
-.burger-icon{
-    position:relative;
-    top:20px;
-    left:30px;
-    font-size:28px;
-    display:none;
-}
-.close-icon{
-    position:relative;
-    top:20px;
-    left:30px;
-    font-size:28px;
-    display:none;
-}
 .burgermenu{
     width:120px;
     height:220px;
@@ -88,7 +82,7 @@ header .container{
 header h1{
     width:300px;
     height:50px;
-    background-image:url(/img/Logo.PNG);
+    background-image:url(/img/Logo.PNG) ;
     background-size:cover;
     background-repeat:no-repeat;
     text-indent:-99999px;
@@ -140,14 +134,14 @@ header ul a,.shopnow p a{
 
 
 .item{
-    width:240px;
+    width:100%;
     overflow:hidden;
     border-radius:20px;
 }
 
 .owl-theme .owl-nav{
     position:absolute;
-    top:120px;
+    top:40%;
     left:0;
     width:100%;
     display:flex;
@@ -363,8 +357,8 @@ article :nth-child(3){
     right:20px;
     bottom:20px;
     border-radius:10px;
-    background-color:#cac3c3;
-    z-index:1;
+    background-color:#50C878;
+    z-index:2;
     display:none;
                                    
 }      
@@ -406,7 +400,7 @@ article :nth-child(3){
 .sendbutton{
     width:70px;
     height:40px;
-    background-color: #50C878;
+    background-color:#90EE90;
     border-radius:10px;
     margin:10px;
     padding:10px;
@@ -441,14 +435,19 @@ article :nth-child(3){
     font-size:20px;
  }
 
- .backtotop p a, .burgermenu p a{
+ .backtotop p a, .burgermenu p a, .footercontainer p a{
     color:#000000;
+ }
+ footer{ 
+    position:relative;
+    bottom:0;
+    width: 100%;
+    padding:20px;
  }
 .footercontainer{
     width:100%;
     height:200px;
-    padding:20px;
-    background-color:#FFFDFA;
+    margin:10px auto;
 }
 
 
@@ -484,9 +483,7 @@ article :nth-child(3){
     margin-top:10px;
 }
 
-.footercontainer p a{
-    color:#000000;
-}
+
 
 /* აქ იწყება signin.html კოდები */
 .login{
@@ -538,8 +535,9 @@ article :nth-child(3){
     background-color: #FFFDFA;
     border:2px solid #000000;
     position:fixed;
-    top:30%;
-    left:30%;
+    top:40%;
+    left:4  0%;
+    z-index:2;
     padding:10px;
     display:none;
     
