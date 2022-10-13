@@ -6,8 +6,12 @@
     list-style-type:none;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+
 header .freeshipingcontainer{
-    height:40px;
+    height:10%;
     background-color:#50C878;
     padding:10px;
 }
@@ -24,32 +28,7 @@ header .freeshipingcontainer p{
 }
 
 
-.burger-icon, .close-icon{
-    position:relative;
-    top:20px;
-    left:30px;
-    font-size:28px;
-    display:none;
-}
 
-.burgermenu{
-    width:120px;
-    height:220px;
-    padding:10px;
-    position:relative;
-    top:30px;
-    left:20px;
-    display:flex;
-    flex-direction:column;  
-    display:none;  
-}
-.burgermenu p{
-    width:100%;
-    text-transform:capitalize;
-    margin-top:10px;
-   border-bottom:2px solid #50C878;
-
-}
 
 .flex{
     display:flex;
@@ -64,8 +43,8 @@ header .container{
 }
 
 .shopnow{
-    width:120px;
-    height:40px;
+    min-width:120px;
+    min-height:40px;
     padding:10px;
     background-color: #ffffff;
     border-radius:20px;
@@ -131,7 +110,32 @@ header ul a,.shopnow p a{
     cursor:pointer;
    
 }
+.burger-icon, .close-icon{
+    position:relative;
+    top:20px;
+    left:30px;
+    font-size:28px;
+    display:none;
+}
 
+.burgermenu{
+    width:120px;
+    height:220px;
+    padding:10px;
+    position:relative;
+    top:30px;
+    left:20px;
+    display:flex;
+    flex-direction:column;  
+    display:none;  
+}
+.burgermenu p{
+    width:100%;
+    text-transform:capitalize;
+    margin-top:10px;
+   border-bottom:2px solid #50C878;
+
+}
 
 .item{
     width:100%;
@@ -295,10 +299,10 @@ article :nth-child(3){
 .social{
     width:50px;
     height:100px;
-    top: 300px;
+    top:50%;
     right:0px;
     position: fixed;
-    z-index: 1;
+    z-index:2;
     
 }
 .social .facebook, .social .instagram{
@@ -441,7 +445,7 @@ article :nth-child(3){
  footer{ 
     position:relative;
     bottom:0;
-    width: 100%;
+    width:100%;
     padding:20px;
  }
 .footercontainer{
@@ -615,12 +619,12 @@ article :nth-child(3){
 /* აქ იწყება vieewproduct.html კოდები */
 
 .firsttshirtcontainer{
-    width:100%;
+    width:50%;
     align-content:flex-start;
     margin:20px;
 }
 .firsttshirtphotocontainer{
-    width:30%;
+    width:50%;
     height:100%;
     overflow:hidden;
 }
@@ -631,7 +635,7 @@ article :nth-child(3){
 }
 
 .firsttshirttextcontainer{
-    width:70%;
+    width:50%;
     height:100%;
     margin:20px;
     
@@ -717,15 +721,12 @@ select,.quantityform input{
         
     }
 
-   
+  
     @media only screen and (max-width:768px) {
         header .container{
             padding:10px;
         }
-    .shopnow {
-height:30px;
-padding:4px;
-    }
+   
  header ul{
     width:100%;
  }
@@ -736,21 +737,27 @@ padding:4px;
     flex-direction:column;
  }
  section{
-    width:700px;
-    height:800px;
+    width:100%;
+    height:100%;
  }
  .sizecontainer{
     left:40%;
  }
+ .signuptoournewslettertext :nth-child(2){
+    display:none;
+ }
 .signuptoournewslettemailinput{
     width:50%;
-    height:50%;
+  
 }
  .AwesomeT-Shirts{
     display:none;
  }
  .firsttshirtcontainer{
     width:100%;
+ }
+ .productdetailscontainer{
+    width:30%;
  }
     }
  
@@ -768,31 +775,32 @@ padding:4px;
 .burger-icon{
     display:block;
 }
-.item{
-    width:100%;
-}
-.owl-theme .owl-nav{
-    top:300px;
-}
+
+
 .articlecontainer{
     flex-direction:column;
+  
  }
 article{
     padding:30px;
 }
  section{
-    width:350px;
-    height:400px;
+    width:100%;
+    height:100%;
  }
  .sizecontainer{
     left:30%;
+  width:120px;
+  height:50px;
+ }
+ .signuptoournewslettertext :nth-child(2){
+    display:none;
  }
  .signuptoournewslettercontainer{
     padding:10px;
  }
  .signuptoournewslettemailinput{
     width:70%;
-    height:70%;
 }
 .footercontainer{
     flex-direction:column;
@@ -803,9 +811,18 @@ article{
 .firsttshirtcontainer{
     flex-direction:column;
     margin:0px auto;
+    width:100%;
 }
+
 .productdetailscontainer{
     width:50%;
+}
+
+.addcontainer{
+    display:block;
+}
+.addcontainer div{
+    margin-top:10px;
 }
 
     }
