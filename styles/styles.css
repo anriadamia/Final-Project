@@ -615,14 +615,13 @@ article :nth-child(3){
 /* აქ იწყება vieewproduct.html კოდები */
 
 .firsttshirtcontainer{
-    width:60%;
+    width:100%;
     align-content:flex-start;
     margin:20px;
-    
 }
 .firsttshirtphotocontainer{
-    width:400px;
-    height:600px;
+    width:30%;
+    height:100%;
     overflow:hidden;
 }
 
@@ -632,8 +631,8 @@ article :nth-child(3){
 }
 
 .firsttshirttextcontainer{
-    width:400px;
-    height:600px;
+    width:70%;
+    height:100%;
     margin:20px;
     
    
@@ -706,9 +705,7 @@ select,.quantityform input{
     }
 .productdetailscontainer{
     margin:20px auto;
-    width:40%;
-    align-content:flex-start;
-  
+    width:20%;
 }
 
     .productdetailsname p, .productdetailsanswer p{
