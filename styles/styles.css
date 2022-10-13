@@ -535,8 +535,8 @@ article :nth-child(3){
     background-color: #FFFDFA;
     border:2px solid #000000;
     position:fixed;
-    top:40%;
-    left:4  0%;
+    top:20%;
+    left:40%;
     z-index:2;
     padding:10px;
     display:none;
