@@ -4,6 +4,7 @@ function emailhasbeensenttoyou(){
     document.getElementById("resetpasswordsubmit").style.display="none"
     document.getElementById("closeresetpassword").style.display="none"
     document.getElementById("emailsent").style.display="block"
+    setTimeout("hideemailhasbeensenttoyou()",5000);
 };
 
 function hideemailhasbeensenttoyou(){
@@ -14,4 +15,4 @@ function hideemailhasbeensenttoyou(){
     document.getElementById("closeresetpassword").style.display="block"
    };
 
-setTimeout("hideemailhasbeensenttoyou()",7000);
+
