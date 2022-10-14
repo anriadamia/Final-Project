@@ -494,6 +494,8 @@ article :nth-child(3){
     width:300px;
     height:400px;
     margin:20px auto;
+    
+    
 
 }
 
@@ -539,13 +541,14 @@ article :nth-child(3){
     background-color: #FFFDFA;
     border:2px solid #000000;
     position:fixed;
-    top:20%;
-    left:40%;
+    top:40%;
+    left:30%;
     z-index:2;
     padding:10px;
     display:none;
     
 }
+
 .resetpasswordtext{
     height:30%;
     border-bottom:1px solid #ddd8d8;
@@ -727,7 +730,7 @@ select,.quantityform input{
             padding:10px;
         }
    
- header ul{
+ header ul, .firsttshirtcontainer{
     width:100%;
  }
  header ul a{
@@ -743,19 +746,13 @@ select,.quantityform input{
  .sizecontainer{
     left:40%;
  }
- .signuptoournewslettertext :nth-child(2){
+ .signuptoournewslettertext :nth-child(2), .signuptoournewslettemailinput{
     display:none;
  }
 .signuptoournewslettemailinput{
     width:50%;
   
 }
- .AwesomeT-Shirts{
-    display:none;
- }
- .firsttshirtcontainer{
-    width:100%;
- }
  .productdetailscontainer{
     width:30%;
  }
@@ -764,7 +761,7 @@ select,.quantityform input{
    
    
     @media only screen and (max-width:412px) {
-        .shopnow,.navcontainer
+        .shopnow,.navcontainer, .signuptoournewslettertext :nth-child(2)
         {
             display:none;
         }
@@ -777,7 +774,7 @@ select,.quantityform input{
 }
 
 
-.articlecontainer{
+.articlecontainer, .footercontainer, .firsttshirtcontainer{
     flex-direction:column;
   
  }
@@ -792,9 +789,7 @@ article{
     left:30%;
   width:120px;
   height:50px;
- }
- .signuptoournewslettertext :nth-child(2){
-    display:none;
+
  }
  .signuptoournewslettercontainer{
     padding:10px;
@@ -802,14 +797,11 @@ article{
  .signuptoournewslettemailinput{
     width:70%;
 }
-.footercontainer{
-    flex-direction:column;
-}
+
 .footercontainer div{
     margin-bottom:20px;
 }
 .firsttshirtcontainer{
-    flex-direction:column;
     margin:0px auto;
     width:100%;
 }
