@@ -586,12 +586,41 @@ article :nth-child(3){
     font-size:20px;
 }
 
+.resetpasswordinput{
+    position:relative;
+}
+.emailsent{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px;
+    display:none;
+}
+.emailsent p{
+width:100%;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+.check{
+    width:100px;
+    height:100px;
+    margin:40px auto;
+    background-image:url(/img/correct.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
 .closeresetpassword{
     width:100%;
     text-align:center;
     margin-top:30px;
     font-size:18px;
 }
+
+
+
 /* აქ იწყება signup.html კოდები */
 .signupcontainer{
     width:400px;

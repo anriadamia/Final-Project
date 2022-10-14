@@ -95,17 +95,22 @@
     </p>
     <p class="resetpassword" onclick="showresetpassword()">Reset Password</p>
     <div class="resetpasswordcontainer" id="resetpasswordcontainer">
-        <div class="resetpasswordtext">
+        <div class="resetpasswordtext" id="resetpasswordtext">
         <p>Reset Your Password</p>
         <p>We will send you an email to reset your password&#46;</p>
+       
     </div>
     <div class="resetpasswordinput" id="resetpasswordinput">
-        <input type="email" name="email" id="resetpasswordemail" placeholder="Email">
+        <input type="email" name="email" id="resetpasswordemail" placeholder="Email" required>
     </div>
-    <div class="resetpasswordsubmit" onclick="hideresetpassword()">
+    <div class="resetpasswordsubmit" id="resetpasswordsubmit" onclick="emailhasbeensenttoyou()">
         Submit
     </div>
-    <p class="closeresetpassword" onclick="hideresetpassword()">Close</p>
+    <p class="closeresetpassword" id="closeresetpassword" onclick="hideresetpassword()">Close</p>
+    <div class="emailsent" id="emailsent">
+        <p>Email has been sent</p>
+        <div class="check"></div>
+    </div>
     </div>
     
 </div>
@@ -178,5 +183,6 @@
 <script src="https://kit.fontawesome.com/8dea7411bd.js" crossorigin="anonymous"></script>
 <script src="/js/nav.js"></script>
 <script src="/js/resetpassword.js"></script>
+<script src="/js/emailsent.js"></script>
 </body>
 </html>
