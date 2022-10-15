@@ -775,7 +775,7 @@ select,.quantityform input{
  .sizecontainer{
     left:40%;
  }
- .signuptoournewslettertext :nth-child(2), .signuptoournewslettemailinput{
+ .signuptoournewslettertext :nth-child(2){
     display:none;
  }
 .signuptoournewslettemailinput{
@@ -789,7 +789,7 @@ select,.quantityform input{
  
    
    
-    @media only screen and (max-width:412px) {
+    @media only screen and (max-width:412px){
         .shopnow,.navcontainer, .signuptoournewslettertext :nth-child(2)
         {
             display:none;
@@ -824,7 +824,7 @@ article{
     padding:10px;
  }
  .signuptoournewslettemailinput{
-    width:70%;
+    width:80%;
 }
 
 .footercontainer div{
