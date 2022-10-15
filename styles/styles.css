@@ -102,10 +102,6 @@ header ul a,.shopnow p a{
 }
 
 
-.user-icon a{
-    color:#000000;
-}
-
 .user-icon,.cart-icon:hover, .bag-icon:hover, .shopnow:hover,.item:hover, .chatbox:hover,.circle-icon:hover, .sendbutton:hover,.signin:hover, .createaccount:hover,.resetpassword:hover, .resetpasswordsubmit:hover,.closeresetpassword:hover, article:hover{
     cursor:pointer;
    
@@ -439,7 +435,7 @@ article :nth-child(3){
     font-size:20px;
  }
 
- .backtotop p a, .burgermenu p a, .footercontainer p a{
+ .backtotop p a, .burgermenu p a, .footercontainer p a,.user-icon a{
     color:#000000;
  }
  footer{ 
